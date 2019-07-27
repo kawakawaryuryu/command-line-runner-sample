@@ -20,7 +20,7 @@ public class JobLauncherTest {
 
     @Test
     public void testHoge() {
-        String fuga = jobLauncher.hoge("fuga");
-        assertThat(fuga).isEqualTo("fuga");
+        String hoge = jobLauncher.hoge();
+        assertThat(hoge).isEqualTo("hoge");
     }
 }
